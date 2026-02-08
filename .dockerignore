@@ -1,0 +1,45 @@
+# Dossiers Python
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Données locales
+data/
+vectorDB/
+*.db
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Configs locales
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit 
+interface.py
+
+# Tests 
+tests/
+.pytest_cache/
+
+# uv cache 
+.uv/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
